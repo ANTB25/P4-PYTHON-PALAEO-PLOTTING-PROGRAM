@@ -10,5 +10,7 @@ To use the program the manual provided P4_MANUAL.pdf should be read. Without rea
 
 Substantial effort has been made to write as many user error checking routines as possible in this code and in most circumstances issues should be met with messages detailing the problem and provide a possible solution. 
 
+[![DOI](https://zenodo.org/badge/536133507.svg)](https://zenodo.org/badge/latestdoi/536133507)
+
 
 
