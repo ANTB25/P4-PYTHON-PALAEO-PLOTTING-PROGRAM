@@ -1,0 +1,421 @@
+PARAMETERS,ENTRY,NOTES
+,,
+GROUP 1,,
+FILES/DIRECTORIES,,
+,,
+Directory**,,Provide location of directory where input data is and where output will go seperated by \
+Input file name**,,Provide the input file name (needs to be a comma delimited csv file or xlsx. Include name and the .csv or .xlsx extention here)
+Extra input file name**,,"Provide the 'extra' input file name if required. If not required enter the word ""none"""
+Output file name**,,Provide a filename for the output plot. Do not add extention just the name.
+Save as**,,"Provide instruction to save as either svg, pdf or png using the terms svg, png or pdf. Specify a single format or two or three seperated by commas only if all are required. "
+Png dpi,,Provide dots per inch for png output if png has been selected. A number can be left here whether png has been selected or not
+,,
+,,
+GROUP 2,,
+OVERALL SIZE,,
+,,
+Overall figure size X**,,"Specify overall size of entire plot X dimension in centimetres (X is the depth axis dimension as plot is plotted in portrait, see manual for illustration). Size dictated to extent by your screen size."
+Overall figure size Y**,,"Specify overall size of entire plot Y dimension in centimetres (Y is the plot size across with all graphs, see manual for illustration). Size dictated to extent by your screen size."
+,,
+,,
+GROUP 3,,
+OVERALL FONT,,
+Font style**,,"Provide font style of entire plot from either Arial, Calibri, Dejavu sans or Times New Roman."
+,,
+,,
+GROUP 4,,
+OVERALL TITLE,,
+,,
+Overall title text,,Provide title text if an overall title is required. If this overruns in to plots can use overall dimensions to adjust or reduce font size
+Overall title text on/off**,,"Specify if title text is to be visible or not. Enter word ""on"" or ""off""."
+Overall title Y position,,"Y postion of start of title. In page units not data units. 0 is far left of visible page, 1 far right"
+Overall title X position,,"X Position of start of title - is page units not data units 0, is lowest position of visible page , 1 highest"
+Overall title font size,,Specify font size for title
+Overall title rotation,,Specify rotation of title in degrees ( 90 degrees if as in example plots in manual)
+Overall title gap,,Adjust gap between title and plots (most likley range is between 0 - 0.5)
+Overall title text colour,,"Specify title text colour (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white"
+Overall title text bold on/off,,"Specify if title text is to be bold or not. Enter word ""on"" or ""off""."
+,,
+,,
+GROUP 5,,
+FOOTER TITLE,,
+,,
+Footer text,,Provide footer text if footer is required
+Footer text on/off**,,"Specify if Footer text is to be visible or not. Enter word ""on"" or ""off""."
+Footer Y position,,"Y postion of start of footer. In page units not data units. 0 is far left of visible page, 1 far right"
+Footer X position,,"X Position of start of footer - is page units not data units 0, is lowest position of visible page , 1 highest"
+Footer font size,,Specify font size for footer
+Footer rotation,,Specify rotation of footer in degrees (90 degrees if as in example plots in manual)
+Footer text colour,,"Specify footer text colour  (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Footer text bold on/off,,"Specify if footer text is in bold or not. Enter word ""on"" or ""off""."
+,,
+,,
+GROUP 6,,
+X TITLE,,
+,,'Depth Axis'
+X title text**,,Provide title of X axis. The 'depth' axis
+X title font size**,,Specify font size for X title (the depth axis)
+X title rotation**,,"Specify rotation in degrees of X title (typically 180, is in examples in manual)"
+X title text colour**,,"Specify X title text colour (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+X title bold on/off**,,"Specify if X title text is in bold or not. Enter word ""on"" or ""off""."
+,,
+,,
+GROUP 7,,
+"X LIMITS, TICKS AND LABELS",,'Depth axis'
+,,
+X limit top**,,Specify limt of X axis start. Often 0 as in 0 cm
+X limit base**,,Specify end limit of X axis (deepest point)
+X major interval**,,Specify major X tick interval unit (the depth axis)
+X minor interval,,Specify minor X tick interval unit (the depth axis)
+X minor ticks on/off**,,"Minor ticks on X (depth axis) are visible. Enter word ""on"" or ""off""."
+X ticks depth axis only**,,"Depth major and/or minor marks are diplayed on first plot only. Enter word ""on"" or ""off""."
+X major tick length**,,Specify length of X major tick marks
+X minor tick length,,Specify length of X minor tick marks
+X major tick width**,,Specify width of X major tick marks
+X minor tick width,,Specify width of X minor tick marks
+X label font size**,,Specify font size of X axis tick labels
+X label rotation**,,"Specify rotation in degrees of X labels (typically 90 degrees, as in examples in manual)"
+X label colour**,,"Specify X label colour (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+,,
+,,
+GROUP 8,,
+Y TITLE,,Taxon/data titles
+,,
+Y title font size**,,Specify font size for Y title (Taxon names typically)
+Y title rotation**,,Specify rotation in degrees of Y titles (Taxon names typically)
+,,
+,,
+GROUP 9,,
+Y TICKS AND LABELS,,
+,,
+Y major tick interval**,,Specify major Y tick interval. Interval applied to all taxon graphs. Does not include Non std scaling (NSC) options.
+Y minor tick interval,,Specify minor Y tick interval  Interval applied to all taxon graphs. Does not include Non std scaling (NSC) options.
+Y minor ticks on/off**,,"Specify if minor ticks on Y axis visible.  Enter word ""on"" or ""off""."
+Y ticks both ends of plot on/off**,,"Display ticks at both ends of the plot. Enter word ""on"" or ""off""."
+Y major tick length**,,Specify length of Y major tick marks
+Y minor tick length,,Specify length of Y minor tick marks
+Y major tick width**,,Specify width of Y major tick marks
+Y minor tick width,,Specify width of Y minor tick marks
+Y label font size**,,Specify font size of Y axis tick labels
+Y label rotation**,,"Specify rotation in degrees of Y labels (typically 90 degrees, as in examples in manual)"
+Y label gap**,,Adjust gap between Y axis titles and plots (between 0.1 and 1 is usually sufficient)
+Space between plots**,,Adjust space between each plot (between 0.05 and 0.4 is usually sufficient)
+,,
+,,
+GROUP 10,,
+"ZONE DEPTHS, LABELS, TITLE, APPEARANCE",,
+,,
+Zones on/off**,,"Specify if zone column should be included as part of the plot or not. Enter word ""on"" or ""off""."
+Zone depths,,"Specify zone depths in cm for example, or whatever unit the depth is in, seperated by commas only."
+Zone labels,,Specify zone names required seperated by commas only.
+Zone title,,Give title for zone column. Typically Zones or Zone or Group etc
+Zone title font size,,Specify zone title font size
+Zone title rotation,,Specify zone title rotation in degrees
+Zone title colour,,"Specify zone title colour (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Zone title bold on/off,,"Zone title in bold or not. Enter word ""on"" or ""off""."
+Zone labels on/off,,"Zone labels visible or not visible. Enter word ""on"" or ""off""."
+Zone label font size,,Specify zone label font size
+Zone label rotation,,Specify zone label rotation in degrees
+Zone label position,,Specify distance of lables to be plotted from edge of boundary of plot in data units.
+Zone label position correction,,If very thin zones may need minor correction to default to keep label within zone lines. Apply correction here as a unit of depth.
+Zone label colour,,"Specify colour of zone labels (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Zone label bold on/off,,"Zone  labels in bold or not. Enter word ""on"" or ""off""."
+Zone line style,,"Specify zone line styles seperated by commas only (1 = solid, 2 = dotted, 3 = dashed, 4 = dashdot)"
+Zone line width,,Specify  zone line widths seperated by commas only
+Zone line col list,,"Specify zone line colours seperated by commas only (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Zone boundary line left on/off,,"Specify if zone column boundary lines should be on or off for each side quoted in attribute. Enter word ""on"" or ""off""."
+Zone boundary line right on/off,,"Specify if zone column boundary lines should be on or off for each side quoted in attribute. Enter word ""on"" or ""off""."
+Zone boundary line top on/off,,"Specify if zone column boundary lines should be on or off for each side quoted in attribute. Enter word ""on"" or ""off""."
+Zone boundary line bottom on/off,,"Specify if zone column boundary lines should be on or off for each side quoted in attribute. Enter word ""on"" or ""off""."
+Zone boundary line style,,"Specify zone boundary box line style (1 = solid, 2 = dotted, 3 = dashed, 4 = dashdot)"
+Zone boundary line colour,,"Specify zone boundary line colour (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Zone boundary line width,,Specify zone boundary line width
+Zone X major tick colour,,"Specify zone X major tick colour if they are enabled (enabled by X ticks depth axis only being OFF)  (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Zone X minor tick colour,,"Specify zone X minor tick colour if they are enabled (enabled by X ticks depth axis only being OFF) (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+,,
+,,
+GROUP 11,,
+"RADIOCARBON TITLE, DEPTHS, LABELS, APPEARANCE",,
+,,
+RC ages on/off**,,"Specify if RC dates are to be added/visible. (RC dates are plotted to side of first taxon plotted next to depth axis). Enter word ""on"" or ""off""."
+RC age title on/off,,"Specify if a RC title should be displayed. Entry should be ""on"" or ""off""."
+RC age title,,Provide RC age title such as Radiocarbon dates cal. BP
+RC age title depth position,,Specify depth position for title (Data units used. So if provide -10 title will be depth units above 0 on the plot)
+RC age title offset position,,Specify offset from first plot in data units (RC dates are plotted to side of first taxon plotted next to depth axis)
+RC age title font size,,Specify RC title font size
+RC age title colour,,"Specify RC age title colour (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+RC age title bold on/off,,"RC age title in bold or not.  Enter word ""on"" or ""off""."
+RC age title rotation,,Specify RC title rotation in degrees
+RC age labels,,Provide RC age labels separated with comma only
+RC age label font size,,Specify RC label font size 
+RC age labels colour,,"Specify RC label colour (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+RC age labels bold on/off,,"RC age labels in bold or not.  Enter word ""on"" or ""off""."
+RC age labels rotation,,Specify RC label rotation in degrees.
+RC age depth label positions,,Specify RC depth locations seperated by commas only.
+RC age label position offset,,Specify offset from first plot in data units (RC dates are plotted to side of first taxon plotted next to depth axis).
+,,
+,,
+GROUP 12,,
+"INT TITLE, DEPTHS, LABELS, APPEARANCE",,
+,,
+INT ages on/off**,,"Specify if INT dates are to be added/visible.  Enter word ""on"" or ""off""."
+INT age title on/off,,"Specify if a INT title should be displayed. Entry should be ""on"" or ""off""."
+INT age title,,Provide INT age title such as Date line BP.
+INT age title depth position,,Specify depth position for title (DATA units used. So if provide -10 title will be depth units above 0 on the plot)
+INT age title offset position,,Specify offset from first plot in data units (INT dates are plotted to side of first taxon plotted next to depth axis)
+INT age title font size,,Specify INT title font size
+INT age title colour,,"Specify INT title  colour (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+INT age title bold on/off,,"INT age title in bold or not.  Enter word ""on"" or ""off""."
+INT age title rotation,,Specify INT title rotation in degrees
+INT age labels,,Provide INT age labels separated with commas only.
+INT age labels font size,,Specify INT label font size.
+INT age labels colour,,"Specify INT label colour (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+INT age labels bold on/off,,"INT age labels in bold or not.  Enter word ""on"" or ""off""."
+INT age labels rotation,,Specify INT label rotation in degrees
+INT age depth labels positions,,Specify INT depth locations seperated by commas only.
+INT age labels position offset,,Specify offset from first plot in data units (INT dates are plotted to side of first taxon plotted next to depth axis)
+INT lines offset,,Specify offset of line from first plot in data units (INT dates are plotted to side of first taxon plotted next to depth axis)
+INT upper most depth age,,Specify the date required for the upmost part of the INT date line
+INT lines width,,Specify the line width of the INT date line
+INT lines colour,,"Specify the INT date line colour (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+INT lines depth length,,Specify the length of the INT date lines pointing to labels from main line
+INT lines width correction,,Ensure depth lines connect to main date line (Correction in data units)
+INT lines length correction,,Ensure main line is long enough (Correction in data units)
+,,
+,,
+GROUP 13,,
+GROUPING ANNOTATIONS,,
+,,
+Grouping annotation 1 on/off**,,"Grouping annotation  required. Enter word ""on"" or ""off"". See manual for grouping input explanations"
+Grouping annotation 1 start,,Specify start plot for grouping annotation. Name of plot where offset directions for location will be based on.
+Grouping annotation 1 title,,Specify text for annotation title
+Grouping annotation 1 title font size,,Specify text font size
+Grouping annotation 1 title bold on/off,,"Specify text to be bold or not bold.  Enter word ""on"" or ""off""."
+Grouping annotation 1 title colour,,"Specify grouping annotation text colour  (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Grouping annotation 1 line colour,,"Specify grouping annotation line colour (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Grouping annotation 1 line width,,Specify grouping annotation line width
+Grouping annotation 1 line start x,,Specify grouping annotation line X start coordinate data units based on grouping annotation start plot (see manual)
+Grouping annotation 1 line start y,,Specify grouping annotation line Y start coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 1 line end x,,Specify grouping annotation line X end coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 1 line end y,,Specify grouping annotation line Y end coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 1 tag end x,,"Specify grouping annotation tag end line, X coordinate data units based on Grouping annotation start plot (see manual)"
+Grouping annotation 1 tag end y,,"Specify grouping annotation tag end line, Y coordinate data units based on Grouping annotation start plot (see maunal)"
+Grouping annotation 1 tag correction,,Specify grouping annotation vertical correction in data units. If this grouping is being used this must be filled in. If no correction needed add 0
+Grouping annotation 1 line correction,,Specify grouping annotation horizontal line correction in data units. If this grouping is being used this must be filled in. If no correction needed add 0
+,,
+Grouping annotation 2 on/off**,,"Grouping annotation  required. Enter word ""on"" or ""off"". See manual for grouping input explanations"
+Grouping annotation 2 start,,Specify start plot for grouping annotation. Name of plot where offset directions for location will be based on.
+Grouping annotation 2 title,,Specify text for annotation title
+Grouping annotation 2 title font size,,Specify text font size
+Grouping annotation 2 title bold on/off,,"Specify text to be bold or not bold.  Enter word ""on"" or ""off""."
+Grouping annotation 2 title colour,,"Specify grouping annotation text colour  (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Grouping annotation 2 line colour,,"Specify grouping annotation line colour (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Grouping annotation 2 line width,,Specify grouping annotation line width
+Grouping annotation 2 line start x,,Specify grouping annotation line X start coordinate data units based on grouping annotation start plot (see manual)
+Grouping annotation 2 line start y,,Specify grouping annotation line Y start coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 2 line end x,,Specify grouping annotation line X end coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 2 line end y,,Specify grouping annotation line Y end coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 2 tag end x,,"Specify grouping annotation tag end line, X coordinate data units based on Grouping annotation start plot (see manual)"
+Grouping annotation 2 tag end y,,"Specify grouping annotation tag end line, Y coordinate data units based on Grouping annotation start plot (see maunal)"
+Grouping annotation 2 tag correction,,Specify grouping annotation vertical correction in data units. If this grouping is being used this must be filled in. If no correction needed add 0
+Grouping annotation 2 line correction,,Specify grouping annotation horizontal line correction in data units. If this grouping is being used this must be filled in. If no correction needed add 0
+,,
+Grouping annotation 3 on/off**,,"Grouping annotation  required. Enter word ""on"" or ""off"". See manual for grouping input explanations"
+Grouping annotation 3 start,,Specify start plot for grouping annotation. Name of plot where offset directions for location will be based on.
+Grouping annotation 3 title,,Specify text for annotation title
+Grouping annotation 3 title font size,,Specify text font size
+Grouping annotation 3 title bold on/off,,"Specify text to be bold or not bold.  Enter word ""on"" or ""off""."
+Grouping annotation 3 title colour,,"Specify grouping annotation text colour  (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Grouping annotation 3 line colour,,"Specify grouping annotation line colour (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Grouping annotation 3 line width,,Specify grouping annotation line width
+Grouping annotation 3 line start x,,Specify grouping annotation line X start coordinate data units based on grouping annotation start plot (see manual)
+Grouping annotation 3 line start y,,Specify grouping annotation line Y start coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 3 line end x,,Specify grouping annotation line X end coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 3 line end y,,Specify grouping annotation line Y end coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 3 tag end x,,"Specify grouping annotation tag end line, X coordinate data units based on Grouping annotation start plot (see manual)"
+Grouping annotation 3 tag end y,,"Specify grouping annotation tag end line, Y coordinate data units based on Grouping annotation start plot (see maunal)"
+Grouping annotation 3 tag correction,,Specify grouping annotation vertical correction in data units. If this grouping is being used this must be filled in. If no correction needed add 0
+Grouping annotation 3 line correction,,Specify grouping annotation horizontal line correction in data units. If this grouping is being used this must be filled in. If no correction needed add 0
+,,
+Grouping annotation 4 on/off**,,Grouping annotation  required. Enter word ON or OFF. See manual for grouping input explanations
+Grouping annotation 4 start,,Specify start plot for grouping annotation. Name of plot where offset directions for location will be based on.
+Grouping annotation 4 title,,Specify text for annotation title
+Grouping annotation 4 title font size,,Specify text font size
+Grouping annotation 4 title bold on/off,,"Specify text to be bold or not bold.  Enter word ""on"" or ""off""."
+Grouping annotation 4 title colour,,"Specify grouping annotation text colour  (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Grouping annotation 4 line colour,,"Specify grouping annotation line colour (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Grouping annotation 4 line width,,Specify grouping annotation line width
+Grouping annotation 4 line start x,,Specify grouping annotation line X start coordinate data units based on grouping annotation start plot (see manual)
+Grouping annotation 4 line start y,,Specify grouping annotation line Y start coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 4 line end x,,Specify grouping annotation line X end coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 4 line end y,,Specify grouping annotation line Y end coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 4 tag end x,,"Specify grouping annotation tag end line, X coordinate data units based on Grouping annotation start plot (see manual)"
+Grouping annotation 4 tag end y,,"Specify grouping annotation tag end line, Y coordinate data units based on Grouping annotation start plot (see maunal)"
+Grouping annotation 4 tag correction,,Specify grouping annotation vertical correction in data units. If this grouping is being used this must be filled in. If no correction needed add 0
+Grouping annotation 4 line correction,,Specify grouping annotation horizontal line correction in data units. If this grouping is being used this must be filled in. If no correction needed add 0
+,,
+Grouping annotation 5 on/off**,,"Grouping annotation  required. Enter word ""on"" or ""off"". See manual for grouping input explanations"
+Grouping annotation 5 start,,Specify start plot for grouping annotation. Name of plot where offset directions for location will be based on.
+Grouping annotation 5 title,,Specify text for annotation title
+Grouping annotation 5 title font size,,Specify text font size
+Grouping annotation 5 title bold on/off,,"Specify text to be bold or not bold.  Enter word ""on"" or ""off""."
+Grouping annotation 5 title colour,,"Specify grouping annotation text colour  (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Grouping annotation 5 line colour,,"Specify grouping annotation line colour (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Grouping annotation 5 line width,,Specify grouping annotation line width
+Grouping annotation 5 line start x,,Specify grouping annotation line X start coordinate data units based on grouping annotation start plot (see manual)
+Grouping annotation 5 line start y,,Specify grouping annotation line Y start coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 5 line end x,,Specify grouping annotation line X end coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 5 line end y,,Specify grouping annotation line Y end coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 5 tag end x,,"Specify grouping annotation tag end line, X coordinate data units based on Grouping annotation start plot (see manual)"
+Grouping annotation 5 tag end y,,"Specify grouping annotation tag end line, Y coordinate data units based on Grouping annotation start plot (see maunal)"
+Grouping annotation 5 tag correction,,Specify grouping annotation vertical correction in data units. If this grouping is being used this must be filled in. If no correction needed add 0
+Grouping annotation 5 line correction,,Specify grouping annotation horizontal line correction in data units. If this grouping is being used this must be filled in. If no correction needed add 0
+,,
+Grouping annotation 6 on/off**,,"Grouping annotation  required. Enter word ""on"" or ""off"". See manual for grouping input explanations"
+Grouping annotation 6 start,,Specify start plot for grouping annotation. Name of plot where offset directions for location will be based on.
+Grouping annotation 6 title,,Specify text for annotation title
+Grouping annotation 6 title font size,,Specify text font size
+Grouping annotation 6 title bold on/off,,"Specify text to be bold or not bold.  Enter word ""on"" or ""off""."
+Grouping annotation 6 title colour,,"Specify grouping annotation text colour  (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Grouping annotation 6 line colour,,"Specify grouping annotation line colour (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Grouping annotation 6 line width,,Specify grouping annotation line width
+Grouping annotation 6 line start x,,Specify grouping annotation line X start coordinate data units based on grouping annotation start plot (see manual)
+Grouping annotation 6 line start y,,Specify grouping annotation line Y start coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 6 line end x,,Specify grouping annotation line X end coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 6 line end y,,Specify grouping annotation line Y end coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 6 tag end x,,"Specify grouping annotation tag end line, X coordinate data units based on Grouping annotation start plot (see manual)"
+Grouping annotation 6 tag end y,,"Specify grouping annotation tag end line, Y coordinate data units based on Grouping annotation start plot (see maunal)"
+Grouping annotation 6 tag correction,,Specify grouping annotation vertical correction in data units. If this grouping is being used this must be filled in. If no correction needed add 0
+Grouping annotation 6 line correction,,Specify grouping annotation horizontal line correction in data units. If this grouping is being used this must be filled in. If no correction needed add 0
+,,
+Grouping annotation 7 on/off**,,"Grouping annotation  required. Enter word ""on"" or ""off"".. See manual for grouping input explanations"
+Grouping annotation 7 start,,Specify start plot for grouping annotation. Name of plot where offset directions for location will be based on.
+Grouping annotation 7 title,,Specify text for annotation title
+Grouping annotation 7 title font size,,Specify text font size
+Grouping annotation 7 title bold on/off,,"Specify text to be bold or not bold.  Enter word ""on"" or ""off""."
+Grouping annotation 7 title colour,,"Specify grouping annotation text colour  (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Grouping annotation 7 line colour,,"Specify grouping annotation line colour (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Grouping annotation 7 line width,,Specify grouping annotation line width
+Grouping annotation 7 line start x,,Specify grouping annotation line X start coordinate data units based on grouping annotation start plot (see manual)
+Grouping annotation 7 line start y,,Specify grouping annotation line Y start coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 7 line end x,,Specify grouping annotation line X end coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 7 line end y,,Specify grouping annotation line Y end coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 7 tag end x,,"Specify grouping annotation tag end line, X coordinate data units based on Grouping annotation start plot (see manual)"
+Grouping annotation 7 tag end y,,"Specify grouping annotation tag end line, Y coordinate data units based on Grouping annotation start plot (see maunal)"
+Grouping annotation 7 tag correction,,Specify grouping annotation vertical correction in data units. If this grouping is being used this must be filled in. If no correction needed add 0
+Grouping annotation 7 line correction,,Specify grouping annotation horizontal line correction in data units. If this grouping is being used this must be filled in. If no correction needed add 0
+,,
+Grouping annotation 8 on/off**,,"Grouping annotation  required. Enter word ""on"" or ""off"". See manual for grouping input explanations"
+Grouping annotation 8 start,,Specify start plot for grouping annotation. Name of plot where offset directions for location will be based on.
+Grouping annotation 8 title,,Specify text for annotation title
+Grouping annotation 8 title font size,,Specify text font size
+Grouping annotation 8 title bold on/off,,"Specify text to be bold or not bold.  Enter word ""on"" or ""off""."
+Grouping annotation 8 title colour,,"Specify grouping annotation text colour  (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Grouping annotation 8 line colour,,"Specify grouping annotation line colour (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Grouping annotation 8 line width,,Specify grouping annotation line width
+Grouping annotation 8 line start x,,Specify grouping annotation line X start coordinate data units based on grouping annotation start plot (see manual)
+Grouping annotation 8 line start y,,Specify grouping annotation line Y start coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 8 line end x,,Specify grouping annotation line X end coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 8 line end y,,Specify grouping annotation line Y end coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 8 tag end x,,"Specify grouping annotation tag end line, X coordinate data units based on Grouping annotation start plot (see manual)"
+Grouping annotation 8 tag end y,,"Specify grouping annotation tag end line, Y coordinate data units based on Grouping annotation start plot (see maunal)"
+Grouping annotation 8 tag correction,,Specify grouping annotation vertical correction in data units. If this grouping is being used this must be filled in. If no correction needed add 0
+Grouping annotation 8 line correction,,Specify grouping annotation horizontal line correction in data units. If this grouping is being used this must be filled in. If no correction needed add 0
+,,
+Grouping annotation 9 on/off**,,Grouping annotation  required. Enter word ON or OFF. See manual for grouping input explanations
+Grouping annotation 9 start,,Specify start plot for grouping annotation. Name of plot where offset directions for location will be based on.
+Grouping annotation 9 title,,Specify text for annotation title
+Grouping annotation 9 title font size,,Specify text font size
+Grouping annotation 9 title bold on/off,,Specify text to be bold or not bold.  Enter word ON or OFF.
+Grouping annotation 9 title colour,,"Specify grouping annotation text colour  (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Grouping annotation 9 line colour,,"Specify grouping annotation line colour (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Grouping annotation 9 line width,,Specify grouping annotation line width
+Grouping annotation 9 line start x,,Specify grouping annotation line X start coordinate data units based on grouping annotation start plot (see manual)
+Grouping annotation 9 line start y,,Specify grouping annotation line Y start coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 9 line end x,,Specify grouping annotation line X end coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 9 line end y,,Specify grouping annotation line Y end coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation 9 tag end x,,"Specify grouping annotation tag end line, X coordinate data units based on Grouping annotation start plot (see manual)"
+Grouping annotation 9 tag end y,,"Specify grouping annotation tag end line, Y coordinate data units based on Grouping annotation start plot (see maunal)"
+Grouping annotation 9 tag correction,,Specify grouping annotation vertical correction in data units. If this grouping is being used this must be filled in. If no correction needed add 0
+Grouping annotation 9 line correction,,Specify grouping annotation horizontal line correction in data units. If this grouping is being used this must be filled in. If no correction needed add 0
+,,
+Grouping annotation *10 on/off**,,"Grouping annotation  required. Enter word ""on"" or ""off"". See manual for grouping input explanations"
+Grouping annotation *10 start,,Specify start plot for grouping annotation. Name of plot where offset directions for location will be based on.
+Grouping annotation *10 title,,Specify text for annotation title
+Grouping annotation *10 title font size,,Specify text font size
+Grouping annotation *10 title bold on/off,,"Specify text to be bold or not bold.  Enter word ""on"" or ""off""."
+Grouping annotation *10 title colour,,"Specify grouping annotation text colour  (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Grouping annotation *10 line colour,,"Specify grouping annotation line colour (1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Grouping annotation *10 line width,,Specify grouping annotation line width
+Grouping annotation *10 line start x,,Specify grouping annotation line X start coordinate data units based on grouping annotation start plot (see manual)
+Grouping annotation *10 line start y,,Specify grouping annotation line Y start coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation *10 line end x,,Specify grouping annotation line X end coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation *10 line end y,,Specify grouping annotation line Y end coordinate data units based on Grouping annotation start plot (see manual)
+Grouping annotation *10 tag end x,,"Specify grouping annotation tag end line, X coordinate data units based on Grouping annotation start plot (see manual)"
+Grouping annotation *10 tag end y,,"Specify grouping annotation tag end line, Y coordinate data units based on Grouping annotation start plot (see maunal)"
+Grouping annotation *10 tag correction,,Specify grouping annotation vertical correction in data units. If this grouping is being used this must be filled in. If no correction needed add 0
+Grouping annotation *10 line correction,,Specify grouping annotation horizontal line correction in data units. If this grouping is being used this must be filled in. If no correction needed add 0
+,,
+,,
+GROUP 14,,
+"NON STANDARD SCALING 1-5, TICKS, MIN AND MAX LIMITS",,
+,,
+NSC 1**,,"Provide name of data (that used in the Input file) that needs unusual scale compared to standard taxa plots (1). If not required give ""none"" entry"
+NSC 2**,,"Provide name of data (that used in the Input file) that needs unusual scale compared to standard taxa plots (2). If not required give ""none"" entry"
+NSC 3**,,"Provide name of data (that used in the Input file) that needs unusual scale compared to standard taxa plots (3).  If not required give ""none"" entry"
+NSC 4**,,"Provide name of data (that used in the Input file) that needs unusual scale compared to standard taxa plots (4).  If not required give ""none"" entry"
+NSC 5**,,"Provide name of data (that used in the Input file) that needs unusual scale compared to standard taxa plots (5).  If not required give ""none"" entry"
+NSC 1 y major tick interval,,Specify major Y tick interval for NSC 1
+NSC 2 y major tick interval,,Specify major Y tick interval for NSC 2
+NSC 3 y major tick interval,,Specify major Y tick interval for NSC 3
+NSC 4 y major tick interval,,Specify major Y tick interval for NSC 4
+NSC 5 y major tick interval,,Specify major Y tick interval for NSC 5
+NSC 1 y minor tick interval,,Specify minor Y tick interval for NSC 1
+NSC 2 y minor tick interval,,Specify minor Y tick interval for NSC 2
+NSC 3 y minor tick interval,,Specify minor Y tick interval for NSC 3
+NSC 4 y minor tick interval,,Specify minor Y tick interval for NSC 4
+NSC 5 y minor tick interval,,Specify minor Y tick interval for NSC 5
+NSC 1 y min,,Specify minimum for scale range of NSC 1
+NSC 2 y min,,Specify minimum for scale range of NSC 2
+NSC 3 y min,,Specify minimum for scale range of NSC 3
+NSC 4 y min,,Specify minimum for scale range of NSC 4
+NSC 5 y min,,Specify minimum for scale range of NSC 5
+NSC 1 y max,,Specify maximum for scale range of NSC 1
+NSC 2 y max,,Specify maximum for scale range of NSC 2
+NSC 3 y max,,Specify maximum for scale range of NSC 3
+NSC 4 y max,,Specify maximum for scale range of NSC 4
+NSC 5 y max,,Specify maximum for scale range of NSC 5
+NSC 1 spine on/off,,"Specify if a spine is required on the plot of NSC 1. Enter word ""on"" or ""off""."
+NSC 2 spine on/off,,"Specify if a spine is required on the plot of NSC 2. Enter word ""on"" or ""off""."
+NSC 3 spine on/off,,"Specify if a spine is required on the plot of NSC 3. Enter word ""on"" or ""off""."
+NSC 4 spine on/off,,"Specify if a spine is required on the plot of NSC 4. Enter word ""on"" or ""off""."
+NSC 5 spine on/off,,"Specify if a spine is required on the plot of NSC 5. Enter word ""on"" or ""off""."
+NSC 1 size,,Increase or reduce plot size. 1 is the size first produced. 0.5 will be half that size. 2 double the size etc
+NSC 2 size,,Increase or reduce plot size. 1 is the size first produced. 0.5 will be half that size. 2 double the size etc
+NSC 3 size,,Increase or reduce plot size. 1 is the size first produced. 0.5 will be half that size. 2 double the size etc
+NSC 4 size,,Increase or reduce plot size. 1 is the size first produced. 0.5 will be half that size. 2 double the size etc
+NSC 5 size,,Increase or reduce plot size. 1 is the size first produced. 0.5 will be half that size. 2 double the size etc
+NSC 1 spine start,,"Specify if the spine needs to start at 0 or at the minimum of the range. Enter ""mini"" or 0 "
+NSC 2 spine start,,"Specify if the spine needs to start at 0 or at the minimum of the range. Enter ""mini"" or 0 "
+NSC 3 spine start,,"Specify if the spine needs to start at 0 or at the minimum of the range. Enter ""mini"" or 0 "
+NSC 4 spine start,,"Specify if the spine needs to start at 0 or at the minimum of the range. Enter ""mini"" or 0 "
+NSC 5 spine start,,"Specify if the spine needs to start at 0 or at the minimum of the range. Enter ""mini"" or 0 "
+,,
+,,
+GROUP 15 ,,
+PERCENTAGE STACK PLOTS,,
+,,
+Percentage stack plot 1 on/off**,,Specify if stack plot required or not. Entry of 'on' or 'off'.
+Percentage stack plot title 1,,Specify a title for the percentage stack plot to be made
+Percentage stack plot calculation 1,,"Does a percentage for the nominated groups in input file need to be calculated? Enter ""yes"" or ""no"". "
+Percentage stack plot size 1,,Provide size of the percentage plot (in terms of width). Increase or reduce number to make plot first seen bigger or smaller. 1 is the size first produced. 0.5 will be half that size. 2 double the size etc
+Percentage stack plot col list 1,,"List of colour codes seperated by commas only for each group in percentage plot nominated in input file(1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Percentage stack plot line width 1,,Specify line width for plot (For all lines that separate the stacks). If no lines required add a zero.
+Percentage stack plot line colour 1,,Specify line colour (For all lines that separate the stacks). If no lines required leave blank.
+Percentage stack plot 2 on/off**,,Specify if stack plot required or not. Entry of 'on' or 'off'.
+Percentage stack plot title 2,,Specify a title for the percentage stack plot to be made
+Percentage stack plot calculation 2,,"Does a percentage for the nominated groups in input file need to be calculated? Enter ""yes"" or ""no"". "
+Percentage stack plot size 2,,Provide size of the percentage plot (in terms of width). Increase or reduce number to make plot first seen bigger or smaller. 1 is the size first produced. 0.5 will be half that size. 2 double the size etc
+Percentage stack plot col list 2,,"List of colour codes seperated by commas only for each group in percentage plot nominated in input file(1 = black, 2 = gray, 3 = dimgray, 4 = darkgray, 5 = slategray, 6 = light gray, 7 = red, 8 = darkred, 9 = orangered, 10 = coral, 11 = green, 12 = darkgreen, 13 = olive, 14 = lightgreen, 15 = blue, 16 = darkblue, 17 = lightblue, 18 = cyan, 19 = yellow, 20 = brown, 21 = magenta, 22 = orange, 23 = white)"
+Percentage stack plot line width 2,,Specify line width for plot (For all lines that separate the stacks). If no lines required leave blank.
+Percentage stack plot line colour 2,,Specify line colour (For all lines that separate the stacks). If no lines required leave blank.

@@ -1,0 +1,104 @@
+,Depth,Mean Water Table Depth (mm) 1,Mean Water Table Depth (mm) 2,Zones
+Graph Type,0,3,3,0
+"Depth Bar Colour - Graphs 1, 2 ",0,0,0,0
+Depth Bar width - Graphs 1,0,0,0,0
+Depth Bar width - Graphs 2  ,0,0,0,0
+"Line Style - Graphs 2, 3, 4, 5",0,2,2,0
+"Line Colour - Graphs 2, 3, 4, 5",0,15,15,0
+"Fill Colour- Graphs 2,4",0,0,0,0
+"Fill Colour Transparency  - Graphs 2,4",0,0,0,0
+"Line width - Graphs 2, 3, 4, 5",0,1,1,0
+"Marker Type - Graphs 5, 6",0,0,0,0
+"Marker Size - Graphs 5, 6",0,0,0,0
+"Marker Face Colour - Graphs 5, 6",0,0,0,0
+"Marker Edge Colour - Graphs 5, 6",0,0,0,0
+"Marker Edge Width - Graphs 5, 6",0,0,0,0
+Taxon Title Text Colour,0,1,1,0
+Taxon Title Text Bold,0,0,0,0
+Plot Vertical Spine Width,0,0.5,0.5,0
+Plot Vertical Spine Style,0,1,1,0
+Plot Vertical Spine Colour,0,1,1,0
+Plot Left Spine Width,0,0.5,0.5,0
+Plot Left Spine Style,0,1,1,0
+Plot Left Spine Colour,0,1,1,0
+Plot Right Spine Width,0,0.5,0.5,0
+Plot Right Spine Style,0,1,1,0
+Plot Right Spine Colour,0,1,1,0
+X Tick Major Colour,0,1,1,1
+X Tick Minor Colour,0,1,1,1
+Y Tick Major Colour,0,1,1,1
+Y Tick Minor Colour,0,1,1,1
+Exaggeration multiplier,0,0,0,0
+Exaggeration graph type - Graph 3 or 4 ,0,0,0,0
+Exaggeration fill colour -  Ex style Graph 4,0,0,0,0
+Exaggeration fill transparency - Ex style Graphs 4,0,0,0,0
+"Exaggeration line colour -  Ex style  Graphs 3,4",0,0,0,0
+"Exaggeration line width - Ex style Graphs 3,4",0,0,0,0
+"Exaggeration line style - Ex style Graphs 3,4",0,0,0,0
+Percentage plot 1,0,0,0,0
+Percentage plot 2,0,0,0,0
+DATA,0,-123.2,-41.76,100
+DATA,4,-149.4,-62.84,0
+DATA,8,-209.48,-97.7,0
+DATA,12,-231.78,-104.7,0
+DATA,16,-58.79,21.53,0
+DATA,20,-67.4,13.52,0
+DATA,24,-68.05,11.97,0
+DATA,28,-70.99,11.45,0
+DATA,32,-79.77,4.33,0
+DATA,36,-79.3,3.36,0
+DATA,40,-100.57,-19.81,0
+DATA,44,-113.73,-33.29,0
+DATA,48,-82.23,-2.57,0
+DATA,52,-56.82,23.8,0
+DATA,56,-51.4,30.24,0
+DATA,60,-54.5,26.48,0
+DATA,64,-65.61,14.63,0
+DATA,68,-46.48,35,0
+DATA,72,-89.35,-1.15,0
+DATA,76,-136.93,-48.25,0
+DATA,80,-91.67,-10.51,0
+DATA,84,-86.95,-6.05,0
+DATA,88,-88.9,-7.98,0
+DATA,92,-73.5,6.36,0
+DATA,96,-64.29,16.15,0
+DATA,100,-65.31,15.19,0
+DATA,104,-57.37,22.59,0
+DATA,108,-43.58,36.92,0
+DATA,112,-58.24,21.9,0
+DATA,116,-64.56,16.32,0
+DATA,120,-70.55,12.13,0
+DATA,124,-76.02,4.56,0
+DATA,128,-86.91,-5.45,0
+DATA,132,-48.84,31.4,0
+DATA,136,-76.62,4.18,0
+DATA,140,-64.28,16.56,0
+DATA,144,-61.94,19.22,0
+DATA,148,-70.48,10.12,0
+DATA,152,-66.73,13.87,0
+DATA,156,-70.62,9.8,0
+DATA,160,-69.68,11.76,0
+DATA,164,-65.25,15.77,0
+DATA,168,-72.99,8.73,0
+DATA,172,-67.47,13.29,0
+DATA,176,-60.69,20.25,0
+DATA,180,-54.88,27.76,0
+DATA,184,-54.38,26.54,0
+DATA,188,-75.27,5.31,0
+DATA,192,-71.97,8.49,0
+DATA,196,-145.13,-53.67,0
+DATA,200,-93.54,-12.2,0
+DATA,204,-63.35,16.99,0
+DATA,208,-64.23,15.97,0
+DATA,212,-74.08,5.92,0
+DATA,216,-77.13,10.23,0
+DATA,220,-84.76,-3.26,0
+DATA,224,-96.63,-8.33,0
+DATA,228,-184.46,-78.82,0
+DATA,232,-98.49,-18.27,0
+DATA,236,-105.58,-24.32,0
+DATA,240,-71.69,8.43,0
+DATA,244,-63.62,16.34,0
+DATA,248,-61.62,20.82,0
+DATA,252,-73.44,7.08,0
+DATA,256,-71.89,8.27,0
