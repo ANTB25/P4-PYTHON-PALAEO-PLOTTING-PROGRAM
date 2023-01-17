@@ -35,8 +35,8 @@ Exaggeration fill transparency - Ex style Graphs 4,0,0,0,0
 "Exaggeration line colour -  Ex style  Graphs 3,4",0,0,0,0
 "Exaggeration line width - Ex style Graphs 3,4",0,0,0,0
 "Exaggeration line style - Ex style Graphs 3,4",0,0,0,0
-Percentage plot 1,0,0,0,0
-Percentage plot 2,0,0,0,0
+Stack plot 1,0,0,0,0
+Stack plot 2,0,0,0,0
 DATA,0,-123.2,-41.76,100
 DATA,4,-149.4,-62.84,0
 DATA,8,-209.48,-97.7,0

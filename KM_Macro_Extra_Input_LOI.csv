@@ -1,0 +1,134 @@
+,Depth,LOI,Zones
+Graph Type,0,5,0
+"Depth Bar Colour - Graphs 1, 2 ",0,0,0
+Depth Bar width - Graphs 1,0,0,0
+Depth Bar width - Graphs 2  ,0,0,0
+"Line Style - Graphs 2, 3, 4, 5",0,1,0
+"Line Colour - Graphs 2, 3, 4, 5",0,20,0
+"Fill Colour- Graphs 2,4",0,0,0
+"Fill Colour Transparency  - Graphs 2,4",0,0,0
+"Line width - Graphs 2, 3, 4, 5",0,0.5,0
+"Marker Type - Graphs 5, 6",0,2,0
+"Marker Size - Graphs 5, 6",0,2,0
+"Marker Face Colour - Graphs 5, 6",0,1,0
+"Marker Edge Colour - Graphs 5, 6",0,1,0
+"Marker Edge Width - Graphs 5, 6",0,0.5,0
+Taxon Title Text Colour,0,1,0
+Taxon Title Text Bold,0,0,0
+Plot Vertical Spine Width,0,0.5,0
+Plot Vertical Spine Style,0,1,0
+Plot Vertical Spine Colour,0,1,0
+Plot Left Spine Width,0,0.5,0
+Plot Left Spine Style,0,1,0
+Plot Left Spine Colour,0,1,0
+Plot Right Spine Width,0,0.5,0
+Plot Right Spine Style,0,1,0
+Plot Right Spine Colour,0,1,0
+X Tick Major Colour,0,1,1
+X Tick Minor Colour,0,1,1
+Y Tick Major Colour,0,1,1
+Y Tick Minor Colour,0,1,1
+Exaggeration multiplier,0,0,0
+Exaggeration graph type - Graph 3 or 4 ,0,0,0
+Exaggeration fill colour -  Ex style Graph 4,0,0,0
+Exaggeration fill transparency - Ex style Graphs 4,0,0,0
+"Exaggeration line colour -  Ex style  Graphs 3,4",0,0,0
+"Exaggeration line width - Ex style Graphs 3,4",0,0,0
+"Exaggeration line style - Ex style Graphs 3,4",0,0,0
+Stack plot 1,0,0,0
+Stack plot 2,0,0,0
+DATA,1,96.774,100
+DATA,3,95.035,0
+DATA,5,94.682,0
+DATA,7,93.526,0
+DATA,9,95.12,0
+DATA,11,96.662,0
+DATA,13,97.065,0
+DATA,15,96.281,0
+DATA,17,97.647,0
+DATA,19,96.983,0
+DATA,21,98.507,0
+DATA,23,97.829,0
+DATA,25,97.29,0
+DATA,27,98.072,0
+DATA,29,98.507,0
+DATA,31,97.428,0
+DATA,33,99.207,0
+DATA,35,98.95,0
+DATA,37,98.673,0
+DATA,39,97.968,0
+DATA,41,98.099,0
+DATA,43,99.104,0
+DATA,45,98.605,0
+DATA,46,97.484,0
+DATA,48,98.074,0
+DATA,50,98.845,0
+DATA,52,98.158,0
+DATA,54,98.046,0
+DATA,56,98.285,0
+DATA,58,98.049,0
+DATA,60,97.778,0
+DATA,62,98.294,0
+DATA,64,97.936,0
+DATA,66,99.272,0
+DATA,68,97.896,0
+DATA,70,98.53,0
+DATA,72,98.414,0
+DATA,74,97.809,0
+DATA,76,97.691,0
+DATA,78,98.598,0
+DATA,80,98.19,0
+DATA,82,97.372,0
+DATA,84,98.78,0
+DATA,86,98.249,0
+DATA,88,98.037,0
+DATA,90,98.243,0
+DATA,92,97.942,0
+DATA,94,98.477,0
+DATA,96,96.28,0
+DATA,98,97.542,0
+DATA,100,96.948,0
+DATA,102,97.096,0
+DATA,104,97.328,0
+DATA,106,97.217,0
+DATA,108,96.926,0
+DATA,110,97.122,0
+DATA,112,97.048,0
+DATA,114,97.024,0
+DATA,116,97.251,0
+DATA,118,97.087,0
+DATA,120,96.276,0
+DATA,122,97.032,0
+DATA,124,95.625,0
+DATA,126,97.852,0
+DATA,128,96,0
+DATA,130,97.037,0
+DATA,132,98.202,0
+DATA,134,97.946,0
+DATA,136,97.13,0
+DATA,138,96.503,0
+DATA,140,97.26,0
+DATA,142,99.098,0
+DATA,144,97.539,0
+DATA,146,97.559,0
+DATA,148,96.713,0
+DATA,150,97.934,0
+DATA,152,96.727,0
+DATA,154,96.691,0
+DATA,156,96.829,0
+DATA,158,96.806,0
+DATA,160,97.494,0
+DATA,162,96.602,0
+DATA,164,97.691,0
+DATA,166,94.856,0
+DATA,168,94.861,0
+DATA,170,89.724,0
+DATA,172,79.5,0
+DATA,174,81.285,0
+DATA,176,62.175,0
+DATA,178,24.929,0
+DATA,180,11.035,0
+DATA,182,10.343,0
+DATA,184,10.149,0
+DATA,186,14.536,0
+DATA,188,16.135,0

@@ -1,4 +1,4 @@
-Options,Depth,Archella flavum,Amphitrema stenostoma,Amphitrema wrightianum,Arcella catinus type,Arcella discoides type,Assulina muscorum,Assulina seminulum,Bullinaria indica,Centropyxis aculeata type,Cyclopyxis arcelloides type,Trigonopyxis arcula,Difflugia lucida type,Difflugia pristis type,Difflugia pulex,Difflugia rubescens,Cryptodifflugia oviformis,Euglypha rotunda type,Euglypha tuberculata type,Heleopera petricola,Heleopera rosea,Heleopera sphagni,Heleopera sylvetica,Hyalosphenia elegans,Hyalosphenia papilio,Hyalosphenia subflava,Nebela carinata,Nebela flabellulum,Nebela militaris,Nebela parvula,Nebela tincta,Alona rustica,Spermatophore of Copepoda,Rotifor,No. of testates per 1cm*1000,Mean Water Table Depth (mm),Zones
+,Depth,Archella flavum,Amphitrema stenostoma,Amphitrema wrightianum,Arcella catinus type,Arcella discoides type,Assulina muscorum,Assulina seminulum,Bullinaria indica,Centropyxis aculeata type,Cyclopyxis arcelloides type,Trigonopyxis arcula,Difflugia lucida type,Difflugia pristis type,Difflugia pulex,Difflugia rubescens,Cryptodifflugia oviformis,Euglypha rotunda type,Euglypha tuberculata type,Heleopera petricola,Heleopera rosea,Heleopera sphagni,Heleopera sylvetica,Hyalosphenia elegans,Hyalosphenia papilio,Hyalosphenia subflava,Nebela carinata,Nebela flabellulum,Nebela militaris,Nebela parvula,Nebela tincta,Alona rustica,Spermatophore of Copepoda,Rotifor,No. of testates per 1cm*1000,Mean Water Table Depth (mm),Zones
 Graph Type,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,4,3,0
 "Depth Bar Colour - Graphs 1, 2 ",0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0
 Depth Bar width - Graphs 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,0,0,0
@@ -35,8 +35,8 @@ Exaggeration fill transparency - Ex style Graphs 4,0,0,0.5,0,0.5,0,0,0.5,0.5,0.5
 "Exaggeration line colour -  Ex style  Graphs 3,4",0,0,4,0,4,0,0,4,4,4,0,4,4,0,0,4,4,4,4,4,4,4,0,0,0,0,4,0,4,4,4,0,0,0,0,0,0
 "Exaggeration line width - Ex style Graphs 3,4",0,0,0.5,0,0.5,0,0,0.5,0.5,0.5,0,0.5,0.5,0,0,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0,0,0,0,0.5,0,0.5,0.5,0.5,0,0,0,0,0,0
 "Exaggeration line style - Ex style Graphs 3,4",0,0,1,0,1,0,0,1,1,1,0,1,1,0,0,1,1,1,1,1,1,1,0,0,0,0,1,0,1,1,1,0,0,0,0,0,0
-Percentage plot 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Percentage plot 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Stack plot 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Stack plot 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 DATA,0,0,0,0,0,0,28,5,0,0,11,0,0,16,2,0,0,1,1,0,1,3,12,0,0,3,0,12,3,0,1,0,0,3,23.5,-82.48,0
 DATA,4,1,0,0,0,0,3,3,1,0,16,1,0,8,19,0,1,0,1,1,1,3,3,0,0,28,0,1,9,0,0,0,0,0,41.2,-106.12,100
 DATA,8,0,0,0,0,0,5,0,1,0,5,2,0,0,7,0,0,1,0,0,0,0,0,0,0,72,0,0,7,0,0,0,0,0,44.7,-153.59,0
