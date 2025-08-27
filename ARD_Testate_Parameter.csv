@@ -3,11 +3,11 @@ PARAMETERS,ENTRY,NOTES
 GROUP 1,,
 FILES/DIRECTORIES,,
 ,,
-Directory**,C:\Users,Provide location of directory where input data is and where output will go seperated by \
+Directory**,F:\P4,Provide location of directory where input data is and where output will go seperated by \
 Input file name**,ARD_Testate_Input.csv,Provide the input file name (needs to be a comma delimited csv file or xlsx. Include name and the .csv or .xlsx extention here)
 Extra input file name**,ARD_Testate_Extra_Input.csv,"Provide the 'extra' input file name if required. If not required enter the word ""none"""
 Output file name**,ARD_Testate_Plot_600_DPI,Provide a filename for the output plot. Do not add extention just the name.
-Save as**,png,"Provide instruction to save as either svg, pdf or png using the terms svg, png or pdf. Specify a single format or two or three seperated by commas only if all are required. "
+Save as**,"png,svg,pdf","Provide instruction to save as either svg, pdf or png using the terms svg, png or pdf. Specify a single format or two or three seperated by commas only if all are required. "
 Png dpi,600,Provide dots per inch for png output if png has been selected. A number can be left here whether png has been selected or not
 ,,
 ,,
@@ -185,9 +185,9 @@ INT lines length correction,1,Ensure main line is long enough (Correction in dat
 ,,
 GROUP 13,,
 GROUPING ANNOTATIONS,,
-,B,
+,,
 Grouping annotation 1 on/off**,off,"Grouping annotation  required. Enter word ""on"" or ""off"". See manual for grouping input explanations"
-Grouping annotation 1 start,B,Specify start plot for grouping annotation. Name of plot where offset directions for location will be based on.
+Grouping annotation 1 start,,Specify start plot for grouping annotation. Name of plot where offset directions for location will be based on.
 Grouping annotation 1 title,,Specify text for annotation title
 Grouping annotation 1 title font size,,Specify text font size
 Grouping annotation 1 title bold on/off,,"Specify text to be bold or not bold.  Enter word ""on"" or ""off""."
